@@ -24,8 +24,8 @@ In this project we implemented The Virtual Brain (TVB) style brain models on the
 #### Description of archive:
 
 The top archive includes the following:
-1) The AIE-Only.zip archive: The project files of the AIE-Only implementation exported from Vitis IDE (accessible at )
-2) The Heterogeneous.zip archive: The project files of the Heterogeneous implementation exported from Vitis IDE (accessible at )
+1) The AIE-Only.zip archive: The project files of the AIE-Only implementation exported from Vitis IDE (accessible at https://drive.google.com/drive/folders/1ernmpE9S8rmMrFeOV1RU6aid-wzvOnsj?usp=sharing)
+2) The Heterogeneous.zip archive: The project files of the Heterogeneous implementation exported from Vitis IDE (accessible at https://drive.google.com/drive/folders/1ernmpE9S8rmMrFeOV1RU6aid-wzvOnsj?usp=sharing)
 3) The VersalDriver Folder: Contains Python scripts used for testing the system
 
 
