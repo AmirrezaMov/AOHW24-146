@@ -1,25 +1,31 @@
-**Team number:** AOHW-146
-**Project name:** Decoding the Seizure Storm: Leveraging the ACAP Heterogeneity for Large-Scale Neural-Mass Brain Modeling
-**Link to YouTube Video(s):** https://youtu.be/hnX7VlAjWaU (Some parts of the demo shown in this video is cut to meet the 2 minute budget)
-**Link to project repository:** https://github.com/AmirrezaMov/AOHW24-146
+**Team number:** AOHW-146\
+**Project name:** Decoding the Seizure Storm: Leveraging the ACAP Heterogeneity for Large-Scale Neural-Mass Brain Modeling\
+**Link to YouTube Video(s):** https://youtu.be/hnX7VlAjWaU (Some parts of the demo shown in this video is cut to meet the 2 minute budget)\
+**Link to project repository:** https://github.com/AmirrezaMov/AOHW24-146\
 
-**University name:** Delft University of Technology (TU Delft)
-**Participant:** Amirreza Movahedin
-**Email:** [A.Movahedin@student.tudelft.nl](mailto:A.Movahedin@student.tudelft.nl)
-**Supervisor name:** Dr.ir.Christos Strydis
-**Supervisor e-mail:** [C.Strydis@tudelft.nl](mailto:C.Strydis@tudelft.nl)
+---
 
-**Board used:** VCK190 (VC1902 Versal AI Core Series)
-**Software Version:** 2022.2
+**University name:** Delft University of Technology (TU Delft)\
+**Participant:** Amirreza Movahedin\
+**Email:** [A.Movahedin@student.tudelft.nl](mailto:A.Movahedin@student.tudelft.nl)\
+**Supervisor name:** Dr.ir.Christos Strydis\
+**Supervisor e-mail:** [C.Strydis@tudelft.nl](mailto:C.Strydis@tudelft.nl)\
+
+---
+
+**Board used:** VCK190 (VC1902 Versal AI Core Series)\
+**Software Version:** 2022.2\
 
 #### Brief description of project:
 In this project we implemented The Virtual Brain (TVB) style brain models on the Versal Adaptive SoC. Our system performs large-scale brain model simulations for used for addressing brain diseases, such as epilepsy. Two version of this systems are implemented: A version that only uses the AI Engines of the Versal (the AIE-Only System), and a version that uses the heterogeneity of the Versal, and utilizes both the Programmable Logic and the AI Engines (the Heterogeneous/Hybrid System).
 
+---
+
 #### Description of archive:
 
 The top archive includes the following:
-1) The AIE-Only.zip archive: The project files of the AIE-Only implementation exported from Vitis IDE
-2) The Heterogeneous.zip archive: The project files of the Heterogeneous implementation exported from Vitis IDE
+1) The AIE-Only.zip archive: The project files of the AIE-Only implementation exported from Vitis IDE (accessible at )
+2) The Heterogeneous.zip archive: The project files of the Heterogeneous implementation exported from Vitis IDE (accessible at )
 3) The VersalDriver Folder: Contains Python scripts used for testing the system
 
 
