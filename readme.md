@@ -25,8 +25,10 @@ In this project we implemented The Virtual Brain (TVB) style brain models on the
 
 The top archive includes the following:
 1) The AIE-Only.zip archive: The project files of the AIE-Only implementation exported from Vitis IDE (accessible at https://drive.google.com/drive/folders/1ernmpE9S8rmMrFeOV1RU6aid-wzvOnsj?usp=sharing)
-2) The Heterogeneous.zip archive: The project files of the Heterogeneous implementation exported from Vitis IDE (accessible at https://drive.google.com/drive/folders/1ernmpE9S8rmMrFeOV1RU6aid-wzvOnsj?usp=sharing)
-3) The VersalDriver Folder: Contains Python scripts used for testing the system
+2) The AIE-Only_Platform Folder: This is the platform project of the AIE-Only system. (accessible at https://drive.google.com/drive/folders/1ernmpE9S8rmMrFeOV1RU6aid-wzvOnsj?usp=sharing)
+3) The Heterogeneous.zip archive: The project files of the Heterogeneous implementation exported from Vitis IDE (accessible at https://drive.google.com/drive/folders/1ernmpE9S8rmMrFeOV1RU6aid-wzvOnsj?usp=sharing)
+4) The Heterogeneous_Platform Folder: This is the platform project of the the Heterogeneous system. (accessible at https://drive.google.com/drive/folders/1ernmpE9S8rmMrFeOV1RU6aid-wzvOnsj?usp=sharing)
+5) The VersalDriver Folder: Contains Python scripts used for testing the system
 
 
 ##### AIE-Only.zip Archive: 
@@ -135,7 +137,8 @@ The __Heterogeneous.zip__ and __AIE-Only.zip__ are full project archives for Het
     - ps_app_system
     - ps_app
 6) Click Finish.
-7) When the importing process is finished, choose the "Hardware" build configuration for the hybrid_system_system/nmm_system project (the arrow next to the hammer icon) and build the project (the hammer icon).
-8) After the compilation is finished, the final project can be found in the "Hardware/package/BOOT.bin" path under the hybrid_system_system/nmm_system project folder.
+7) Put the correspinding platform project folder (custom_pfm_vck190 in either AIE-Only_Platform or Heterogeneous_Platform) in the parent directory of the imported project. This is to make the platform project visible to the Vitis tool.
+8) When the importing process is finished, choose the "Hardware" build configuration for the hybrid_system_system/nmm_system project (the arrow next to the hammer icon) and build the project (the hammer icon).
+9) After the compilation is finished, the final project can be found in the "Hardware/package/BOOT.bin" path under the hybrid_system_system/nmm_system project folder.
 
 The compilation process for both the systems takes a long time, usually in the range of hours. That is why the Image files are provided in the VersalDriver folder for easier testing.
