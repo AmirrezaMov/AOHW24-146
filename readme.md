@@ -137,7 +137,7 @@ The __Heterogeneous.zip__ and __AIE-Only.zip__ are full project archives for Het
     - ps_app_system
     - ps_app
 6) Click Finish.
-7) Put the correspinding platform project folder (custom_pfm_vck190 in either AIE-Only_Platform or Heterogeneous_Platform) in the parent directory of the imported project. This is to make the platform project visible to the Vitis tool.
+7) Put the corresponding platform project folder (custom_pfm_vck190 in either AIE-Only_Platform or Heterogeneous_Platform) in the parent directory of the imported project. This is to make the platform project visible to the Vitis tool.
 8) When the importing process is finished, choose the "Hardware" build configuration for the hybrid_system_system/nmm_system project (the arrow next to the hammer icon) and build the project (the hammer icon).
 9) After the compilation is finished, the final project can be found in the "Hardware/package/BOOT.bin" path under the hybrid_system_system/nmm_system project folder.
 
